@@ -1,0 +1,51 @@
+/**
+ * Css for the About container
+ * @author Jose Danado (jose.danado@gmail.com)
+ */
+.about-container {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.about-card {
+  margin: auto;
+  width: 60%;
+  height: 70%;
+}
+
+.about-card .container {
+  display: flex;
+  align-content: center;
+  height: 85%;
+  padding: 1vw 1vh;
+}
+
+.about-card mat-card-title {
+  font-size: 2vw;
+}
+
+.about-card .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.about-card .about-content .row {
+  display: flex;
+}
+.about-card .about-content .row .number {
+  font: bold italic 3vw Roboto, Verdana, sans-serif;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.about-card .about-content .row .text {
+  font: 1.4vw Roboto, sans-serif;
+  color: #555;
+  padding: 0 0 0 20px;
+}

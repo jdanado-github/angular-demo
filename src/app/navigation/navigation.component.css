@@ -1,0 +1,9 @@
+/**
+ * Css for the Navigation component.
+ *
+ * @author Jose Danado (jose.danado@gmail.com)
+ */
+
+.sidenav-container {
+  height: calc( 100% - 64px );
+}
